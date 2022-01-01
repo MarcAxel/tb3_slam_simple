@@ -8,7 +8,7 @@
   </description>
   <maintainer email="marcellius.jevin@student.sgu.ac.id">Marcellius Jevin</maintainer>
   <license>Apache 2.0</license>
-  <url type="repository">https://github.com/MarcAxel/tb3_slam_simple/</url>
+  <url type="repository">https://github.com/MarcAxel/tb3_slam_simple.git/</url>
   <author email="marcellius.jevin@student.sgu.ac.id">Marcellius Jevin</author>
   <buildtool_depend>ament_cmake</buildtool_depend>
   <depend>gazebo_ros_pkgs</depend>
