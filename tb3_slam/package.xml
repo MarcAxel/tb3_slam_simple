@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>tb3_slam</name>
+  <version>2.2.3</version>
+  <description>
+    Gazebo simulation package for the TurtleBot3 with slam rviz
+  </description>
+  <maintainer email="marcellius.jevin@student.sgu.ac.id">Marcellius Jevin</maintainer>
+  <license>Apache 2.0</license>
+  <url type="repository">https://github.com/MarcAxel/tb3_slam_simple/</url>
+  <author email="marcellius.jevin@student.sgu.ac.id">Marcellius Jevin</author>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>gazebo_ros_pkgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2</depend>
+  <exec_depend>turtlebot3_description</exec_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>
