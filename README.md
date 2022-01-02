@@ -14,8 +14,9 @@ For starters, the required packages are :
     $ sudo apt install ros-foxy-turtlebot3* 
     ```
     in the terminal. However, it is recommended to use source build for the ease of add, edit, and modify. The steps of source building can be followed in e-manual ROBOTIS.
-    Getting started : https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
-    Turtlebot3 installation : https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation.
+
+	>Getting started : https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/ \
+	>Turtlebot3 installation : https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation.
 * Gazebo, Nav2 Bring-Up, and SLAM Toolbox   
     Gazebo is usually automatically installed if using the steps in the ROS2 documentation. However, it can be installed using
     ```
